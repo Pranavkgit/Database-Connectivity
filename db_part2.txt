@@ -1,0 +1,47 @@
+mysql> source E:\\select_queries.sql
++-----------------+---------+
+| name            | maximum |
++-----------------+---------+
+| Spain LIGA BBVA |     193 |
++-----------------+---------+
+1 row in set (1.69 sec)
+
++----------------+--------------------------+-----------+---------------+
+| team           | name                     | season    | maximum_goals |
++----------------+--------------------------+-----------+---------------+
+| Real Madrid CF | Switzerland Super League | 2015/2016 |            10 |
+| Rayo Vallecano | Spain LIGA BBVA          | 2015/2016 |            10 |
+| Real Madrid CF | Spain LIGA BBVA          | 2015/2016 |            10 |
+| Real Madrid CF | Portugal Liga ZON Sagres | 2015/2016 |            10 |
+| Real Madrid CF | Scotland Premier League  | 2015/2016 |            10 |
+| Real Madrid CF | England Premier League   | 2015/2016 |            10 |
+| Real Madrid CF | France Ligue 1           | 2015/2016 |            10 |
+| Real Madrid CF | Belgium Jupiler League   | 2015/2016 |            10 |
+| Real Madrid CF | Poland Ekstraklasa       | 2015/2016 |            10 |
+| Real Madrid CF | Netherlands Eredivisie   | 2015/2016 |            10 |
++----------------+--------------------------+-----------+---------------+
+10 rows in set (2.74 sec)
+
++-------------------+----------------+
+| player_name       | matches_scored |
++-------------------+----------------+
+| Dimitar Berbatov  |              9 |
+| Cristiano Ronaldo |              7 |
++-------------------+----------------+
+2 rows in set (4.20 sec)
+
++-------+
+| total |
++-------+
+|    38 |
++-------+
+1 row in set (0.38 sec)
+
++-------------------+--------------+------+---------------+-------------------+--------------------+-----------------+--------+--------+
+| player_name       | away_matches | id   | player_api_id | player_name       | player_fifa_api_id | birthday        | height | weight |
++-------------------+--------------+------+---------------+-------------------+--------------------+-----------------+--------+--------+
+| Edwin van der Sar |           16 | 2900 |         30726 | Edwin van der Sar |              51539 | 10/29/1970 0:00 | 198.12 |    196 |
++-------------------+--------------+------+---------------+-------------------+--------------------+-----------------+--------+--------+
+1 row in set (0.04 sec)
+
+mysql> \t
