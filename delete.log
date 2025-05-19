@@ -1,0 +1,21 @@
+mysql> tee
+Currently logging to file 'delete.log'
+mysql> source delete.sql
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+mysql> use pxm4180
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> source delete.sql
+
+ERROR 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`pxm4180`.`league`, CONSTRAINT `league_ibfk_1` FOREIGN KEY (`country_id`) REFERENCES `country` (`id`))
+ERROR 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`pxm4180`.`league`, CONSTRAINT `league_ibfk_1` FOREIGN KEY (`country_id`) REFERENCES `country` (`id`))
+ERROR 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails (`pxm4180`.`league`, CONSTRAINT `league_ibfk_1` FOREIGN KEY (`country_id`) REFERENCES `country` (`id`))
+mysql> \t

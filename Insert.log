@@ -1,0 +1,9 @@
+mysql> tee
+Currently logging to file 'Insert.log'
+mysql> source Insert.sql
+ERROR 1062 (23000): Duplicate entry '1' for key 'country.PRIMARY'
+ERROR 1062 (23000): Duplicate entry '1' for key 'country.PRIMARY'
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`pxm4180`.`league`, CONSTRAINT `league_ibfk_1` FOREIGN KEY (`country_id`) REFERENCES `country` (`id`))
+ERROR 1062 (23000): Duplicate entry 'England Premier League' for key 'league.name'
+ERROR 1062 (23000): Duplicate entry 'England Premier League' for key 'league.name'
+mysql> \t

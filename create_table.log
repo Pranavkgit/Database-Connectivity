@@ -1,0 +1,20 @@
+mysql> tee
+Currently logging to file 'create_table.log'
+mysql> use pxm4180;
+Database changed
+mysql> source create_table.sql
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.41 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+mysql> \t

@@ -1,0 +1,10 @@
+mysql> tee
+Currently logging to file 'insert_correct.log'
+mysql> source insert_correct.sql
+Query OK, 1 row affected (0.02 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+mysql> \t
